@@ -66,7 +66,7 @@ local function startTeleport()
             if not teleporting then break end
             local hrp = character:WaitForChild("HumanoidRootPart")
             hrp.CFrame = CFrame.new(pos)
-            task.wait(0.4) -- jeda antar teleport (ubah sesuai keinginan)
+            task.wait(0.7) -- jeda antar teleport (ubah sesuai keinginan)
         end
     end
 end
